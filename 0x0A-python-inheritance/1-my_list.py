@@ -1,8 +1,12 @@
 #!/usr/bin/python3
-"""Defines a class mylist"""
+"""Defines a class Mylist"""
+
 
 class MyList(list):
-    """ a class that defines the properties of mylist"""
+    """
+    Class that defines properties of a list.
+    """
     def print_sorted(self):
-        """a method to print a listed sorted"""
+        """sort list
+        """
         print(sorted(self))
