@@ -6,7 +6,3 @@ class MyList(list):
     def print_sorted(self):
         """a method to print a listed sorted"""
         print(sorted(self))
-
-if __name__ == "__main__":
-        import doctest
-        doctest.testfile("tests/1-my_list.txt")
