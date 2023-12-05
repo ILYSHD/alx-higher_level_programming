@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Student class module"""
 
+
 class Student():
     """ Class that defines properties of a Student."""
     def __init__(self, first_name, last_name, age):
