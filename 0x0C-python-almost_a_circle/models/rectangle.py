@@ -171,5 +171,7 @@ class Rectangle(Base):
 
     def to_dictionary(self):
         """a method to return a dictionnary representation of the instance"""
-        object_dic = {'id':self.id, 'width':self.__width, 'height':self.__height, 'x':self.__x,'y':self.__x}
+        object_dic = {'id': self.id, 'width': self.__width,
+                      'height': self.__height,
+                      'x': self.__x, 'y': self.__x}
         return object_dic
